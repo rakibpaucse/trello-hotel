@@ -1,0 +1,60 @@
+:root{
+    --color-primary-light:#ff3366;
+    --color-primary: #eb2f64; 
+    --color-primary-dark: #BA2650;
+
+    --color-gray-light-1:#faf9f9;
+    --color-gray-light-2:#ebe8e8;
+    --color-gray-light-3:#f0eeee;
+    --color-gray-light-4:#ccc;
+
+    --color-gray-dark-1:#333;
+    --color-gray-dark-2:#777;
+    --color-gray-dark-3:#999;
+
+
+    --shadow-dark-1 : 0rem 2rem 6rem rgba($color: #000000, $alpha: .3);
+}
+
+
+
+
+$bp-largest : 58.75em;
+$bp-large : 54.375em;
+$bp-medium : 35.75em;
+$bp-small : 30em;
+$bp-smallest : 26em;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    @media only screen and (max-width : $bp-large ) {
+        font-size: 55%;
+    }
+
+}
+
+
+
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+
+body{
+    line-height: 1.6;
+    color: var(--color-gray-dark-2);
+    background-image: linear-gradient(to right bottom , var(--color-primary-light) , var(--color-primary-dark));
+    background-size: cover;
+    min-height: 100vh;
+}

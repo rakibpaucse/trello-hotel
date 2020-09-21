@@ -1,0 +1,69 @@
+.descreption{
+
+    .paragraph{
+        font-size: 1.28rem;
+        margin-bottom: 2rem;
+    }
+
+    .list{
+
+        list-style: none;
+        margin: 3rem 0;
+        padding: 3rem 0;
+        display: flex;
+        flex-wrap: wrap;
+
+
+        &__item{
+            font-size: 1.28rem;
+            flex: 0 0 50%;
+            margin-bottom: .7rem;
+        }
+
+
+        .item__icon{
+            height: 1.05rem;
+            width: 1.05rem;
+            fill: var(--color-primary);
+        }
+    }
+
+
+    .recommend{
+
+        font-size: 1.3rem;
+        color: var(--color-gray-dark-2);
+        display: flex;
+        justify-content: space-between;
+
+        &__count{
+
+        }
+
+
+        &__friends{
+            display: flex;
+
+        }
+
+        &__photo{
+            box-sizing: content-box;
+            height: 3.5rem;
+            width: 3.5rem;
+            border-radius: 50%;
+            border: 3px solid white;
+            
+
+            &:not(:last-child){
+                margin-right: -12px;
+
+
+                // @media only screen and (max-width : 62.5rem ) {
+                //     margin-right: 5px;
+                // }
+
+
+            }
+        }
+    }
+}

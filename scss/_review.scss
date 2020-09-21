@@ -1,0 +1,48 @@
+.review{
+    font-size: 1.4rem;
+    background-color: #fff;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, .25);
+
+    &__text{
+
+    }
+
+
+    &__photo{
+        height: 4.5rem;
+        width: 4.5rem;
+        border-radius: 50%;
+        margin-right: 1.5rem;
+    }
+
+
+    &__user{
+
+        display: flex;
+        margin-top: 3rem;
+
+
+        &-box{
+            margin-right: auto;
+        }
+
+        &-name{
+            color: rgb(77, 73, 73);
+            font-weight: 300;
+        }
+
+        &-date{
+            font-size: 1rem;
+            color: var(--color-gray-dark-2);
+        }
+
+
+
+        .rating{
+            color: var(--color-primary);
+            font-size: 2rem;
+        }
+    }
+}
